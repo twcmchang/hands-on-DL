@@ -3,6 +3,5 @@
 2. 可下載 https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py 這份範例程式並執行
 ```python
 python mnist_mlp.py
-```
-若能成功執行，表示安裝成功！
+```若能成功執行，表示安裝成功！
 ## 請在 12/18(日) 上課前完成安裝流程。
