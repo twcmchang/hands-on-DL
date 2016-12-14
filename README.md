@@ -7,8 +7,13 @@ python mnist_mlp.py
 ```
 + 若能成功執行，表示安裝成功
 + 請在 12/18(日) 上課前完成安裝流程。
-3. 執行 https://github.com/tw-cmchang/hand-on-dl/blob/master/checkblas.py 測試是否有安裝運算加速器成功。
-+ 安裝 openblas，請依 https://github.com/tw-cmchang/hand-on-dl/blob/master/openblas_installation.pdf
 
+## 課前準備: 
+0. 安裝 Anaconda 的學員，可以完全跳過，因為 Anaconda 中已有運算加速庫 mkl (math kernal library)。
+1. 下載並執行 https://github.com/tw-cmchang/hand-on-dl/blob/master/checkblas.py 測試是否有安裝運算加速庫。
+```python
+python checkblas.py
+```
+2. 安裝 openblas，請依 https://github.com/tw-cmchang/hand-on-dl/blob/master/openblas_installation.pdf
 ## 下載課程程式碼與資料集
 1. 請至 http://mmnet.iis.sinica.edu.tw/~cmchang/hand-on-dl.zip 下載程式
