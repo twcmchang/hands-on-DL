@@ -14,4 +14,4 @@ python mnist_mlp.py
 2. 安裝 openblas，請依 https://github.com/tw-cmchang/hand-on-dl/blob/master/openblas_installation.pdf。
 
 ## 下載課程程式碼與資料集
-1. 請至 http://mmnet.iis.sinica.edu.tw/~cmchang/hand-on-dl.zip 下載程式。
+1. 請至 http://mmnet.iis.sinica.edu.tw/~cmchang/hand-on-dl.zip 下載。
