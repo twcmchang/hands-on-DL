@@ -7,6 +7,7 @@ python mnist_mlp.py
 ```
 + 若能成功執行，表示安裝成功
 + 請在 12/18(日) 上課前完成安裝流程。
++ 由於作業系統環境因人而異，若有任何安裝上的問題，請不吝來信詢問: cmchang@iis.sinica.edu.tw and chihfan@iis.sinica.edu.tw。先謝謝大家的海涵，希望各位能在上課前完成安裝流程，謝謝！
 
 ## (optional) 安裝運算加速庫
 1. 下載並執行 https://github.com/tw-cmchang/hand-on-dl/blob/master/checkblas.py 測試是否有安裝運算加速庫。
