@@ -19,13 +19,11 @@ python mnist_mlp.py
 2. 跟各位學員致歉，因近日伺服器有些不穩，若上方連結失效，可至 https://drive.google.com/open?id=0By9xOgk3An1wSlRVX2JvUElicnM 下載。
 
 ## Question:
-+有學員回報在 win10 安裝 Anaconda 後，使用 pip install theano/ pip install keras 出現下方錯誤訊息：
++ 有學員回報在 win10 安裝 Anaconda 後，使用 pip install theano/ pip install keras 出現下方錯誤訊息：
 ```pyhon
 UnicodeDecodeError: 'ascii' codec can't decode byte 0xb8 in position 0: ordinal not in range(128)
-```
-此為 Anaconda2 的預設編碼問題。請在 Anaconda2\Lib\site-packages 裡增加一個 sitecustomize.py，內容如下：
+```此為 Anaconda2 的預設編碼問題。請在 Anaconda2\Lib\site-packages 裡增加一個 sitecustomize.py，內容如下：
 ```python
 import sys 
 sys.setdefaultencoding('gbk')
-```
-之後在 pip install theano/keras
+```之後在 pip install theano/keras 試試看，若有問題請再來信。謝謝該位熱心的同學提供解法 :)。
