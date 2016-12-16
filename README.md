@@ -18,7 +18,7 @@ python mnist_mlp.py
 1. 請至 http://mmnet.iis.sinica.edu.tw/~cmchang/hand-on-dl.zip 下載。
 2. 跟各位學員致歉，因近日伺服器有些不穩，若上方連結失效，可至 https://drive.google.com/open?id=0By9xOgk3An1wSlRVX2JvUElicnM 下載。
 
-## Question:
+## Questions
 + 有學員回報在 win10 安裝 Anaconda 後，使用 pip install theano/ pip install keras 出現下方錯誤訊息：
 ```pyhon
 UnicodeDecodeError: 'ascii' codec can't decode byte 0xb8 in position 0: ordinal not in range(128)
