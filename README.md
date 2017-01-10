@@ -26,7 +26,7 @@ python mnist_mlp.py
 ### 在 ubuntu 上安裝可以參考下列影片，建議安裝 CUDA 7.5
 * https://www.youtube.com/watch?v=wjByPfSFkBo
 
-## 沒有 GPU 的折衷方案 (Windows 10, openBLAS CPU 加速)
+### 沒有 GPU 的折衷方案 (Windows 10, openBLAS CPU 加速)
 * 請安裝 [openBLAS](https://github.com/chihfanhsu/dnn_hand_by_hand/blob/master/openblas_install.pdf)
 
 ## Other Questions
