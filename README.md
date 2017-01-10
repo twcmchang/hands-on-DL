@@ -8,13 +8,28 @@ python mnist_mlp.py
 + 若能成功執行，表示安裝成功。
 + 由於作業系統環境因人而異，若有任何安裝上的問題，請不吝來信詢問: cmchang@iis.sinica.edu.tw 或 chihfan@iis.sinica.edu.tw。先謝謝大家的海涵，希望各位能在 1/15 上課前完成安裝流程，謝謝！
 
+## 下載程式、投影片
+1. 請於 1/15 上課前至 https://goo.gl/UmVMMZ 下載所需的程式碼。
+2. 課程投影片請先參考 https://github.com/tw-cmchang/hand-on-dl/blob/master/slide_DL_final.pdf ，近日可能會有更新，課前也會將最新版本更新到 slideshare 上，還請各位包涵。
+
 ## (optional) 安裝運算加速庫
 1. 下載並執行 https://github.com/tw-cmchang/hand-on-dl/blob/master/checkblas.py 測試是否有安裝運算加速庫。
 2. 安裝 Anaconda 的學員，也確認是否有通過 checkblas.py 測試。儘管 Anaconda 內有 mkl 運算加速庫。
 3. 安裝 openblas，請依 https://github.com/tw-cmchang/hand-on-dl/blob/master/openblas_installation.pdf 。
 4. 另外，若需要安裝 openblas 可至 https://drive.google.com/drive/folders/0ByfnsehogjWtbndTY3JncE95bjQ 下載 (謝謝 Chih-Fan)。
 
-## Questions
+## (optional) GPU 安裝 (需要 NVIDIA 顯示卡)
+### 在 Windows 10 安裝 CUDA & cuDNN 可以參考下列網址
+1. [安裝 CUDA&Theano](http://ankivil.com/installing-keras-theano-and-dependencies-on-windows-10/)
+2. [安裝 cuDNN](http://ankivil.com/making-theano-faster-with-cudnn-and-cnmem-on-windows-10/)
+
+### 在 ubuntu 上安裝可以參考下列影片，建議安裝 CUDA 7.5
+* https://www.youtube.com/watch?v=wjByPfSFkBo
+
+## 沒有 GPU 的折衷方案 (Windows 10, openBLAS CPU 加速)
+* 請安裝 [openBLAS](https://github.com/chihfanhsu/dnn_hand_by_hand/blob/master/openblas_install.pdf)
+
+## Other Questions
 + 有學員回報在 win10 安裝 Anaconda 後，使用 pip install theano/ pip install keras 出現下方錯誤訊息：
 ```pyhon
 UnicodeDecodeError: 'ascii' codec can't decode byte 0xb8 in position 0: ordinal not in range(128)
