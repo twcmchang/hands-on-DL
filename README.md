@@ -10,7 +10,7 @@ python mnist_mlp.py
 
 ## 下載程式、投影片
 1. 請於 1/15 上課前至 https://goo.gl/UmVMMZ 下載所需的程式碼。
-2. 可先參考 [github上的投影片](https://github.com/tw-cmchang/hand-on-dl/blob/master/slide_DL_final.pdf) ，近日可能會有更新，課前也會將最新版本更新到 [slideshare](http://www.slideshare.net/tw_dsconf/ss-70083878) 上，還請各位包涵。
+2. 最新版下載網址：https://goo.gl/PJKbNZ 。 Github 上亦會更新[投影片](https://github.com/tw-cmchang/hand-on-dl/blob/master/slide_DL_final.pdf) ，課前也會將最新版本更新到 [slideshare](http://www.slideshare.net/tw_dsconf/ss-70083878) 上，還請各位包涵。
 
 ## (optional) 安裝運算加速庫
 1. 下載並執行 https://github.com/tw-cmchang/hand-on-dl/blob/master/checkblas.py 測試是否有安裝運算加速庫。
