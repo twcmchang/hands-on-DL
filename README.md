@@ -1,5 +1,6 @@
 # 手把手的深度學習實務
 ## 課前準備: 安裝 Keras
+0. 範例與練習是用 python 2.7 完成，請大家安裝 python 2.7。
 1. 安裝 Keras，請依 https://github.com/tw-cmchang/hand-on-dl/blob/master/keras_installation.pdf 安裝說明。
 2. 下載 https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py 這份範例程式並執行測試。
 ```python
