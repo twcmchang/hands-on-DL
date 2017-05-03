@@ -1,7 +1,8 @@
 # 手把手的深度學習實務
 ## 課前準備: 安裝 Keras
 0. python2 or python3 皆可以使用。請依照各自的環境，參照下方安裝說明，安裝好所需要的 packages。
-1. 安裝 Keras，請依 https://github.com/tw-cmchang/hand-on-dl/blob/master/keras_installation.pdf 安裝說明。
+1. [For Linux or MacOSX] 安裝 Keras，請依 https://github.com/tw-cmchang/hand-on-dl/blob/master/keras_installation.pdf 安裝說明。
+2. [For Windows] 請參考 https://github.com/chihfanhsu/hand-on-dl 安裝說明。
 2. 下載 https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py 這份範例程式並執行測試。
 ```python
 python mnist_mlp.py
