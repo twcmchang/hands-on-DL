@@ -1,17 +1,17 @@
 # 手把手的深度學習實務
 ## 課前準備: 安裝 Keras
-0. 範例與練習是用 python 2.7 完成，請大家安裝 python 2.7。
+0. python2 or python3 皆可以使用。請依照各自的環境，參照下方安裝說明，安裝好所需要的 packages。
 1. 安裝 Keras，請依 https://github.com/tw-cmchang/hand-on-dl/blob/master/keras_installation.pdf 安裝說明。
 2. 下載 https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py 這份範例程式並執行測試。
 ```python
 python mnist_mlp.py
 ```
 + 若能成功執行，表示安裝成功。
-+ 由於作業系統環境因人而異，若有任何安裝上的問題，請不吝來信詢問: cmchang@iis.sinica.edu.tw 或 chihfan@iis.sinica.edu.tw。先謝謝大家的海涵，希望各位能在 2/12 上課前完成安裝流程，謝謝！
++ 由於作業系統環境因人而異，若有任何安裝上的問題，請不吝來信詢問: cmchang@iis.sinica.edu.tw 或 chihfan@iis.sinica.edu.tw。先謝謝大家的海涵，希望各位能在 5/7 上課前完成安裝流程，謝謝！
 
 ## 下載程式、投影片
-1. 請於 2/12 上課前至 https://goo.gl/UmVMMZ 下載所需的程式碼。
-2. 最新版下載網址：https://goo.gl/PJKbNZ 。 Github 上亦會更新[投影片](https://github.com/tw-cmchang/hand-on-dl/blob/master/slide_DL_final.pdf) ，課前也會將最新版本更新到 [slideshare](http://www.slideshare.net/tw_dsconf/ss-70083878) 上，還請各位包涵。
+1. 請於 5/7 上課前至 https://goo.gl/UmVMMZ 下載所需的程式碼。
+2. Github 上亦會更新[投影片](https://github.com/tw-cmchang/hand-on-dl/blob/master/slide_DL_final.pdf) ，課前也會將最新版本更新到 [slideshare](http://www.slideshare.net/tw_dsconf/ss-70083878) 上，還請各位包涵。
 
 ## (optional) 安裝運算加速庫
 1. 下載並執行 https://github.com/tw-cmchang/hand-on-dl/blob/master/checkblas.py 測試是否有安裝運算加速庫。
