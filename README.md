@@ -11,6 +11,7 @@ python mnist_mlp.py
 + 所需套件整理如下:
 ```
 pip install numpy scipy future matplotlib scikit-learn
+pip install tensorflow
 pip install keras
 ```
 + 由於作業系統環境因人而異，若有任何安裝上的問題，請不吝來信詢問: cmchang@iis.sinica.edu.tw，謝謝大家的海涵，希望各位能在 12/16 上課前完成安裝流程，謝謝！
