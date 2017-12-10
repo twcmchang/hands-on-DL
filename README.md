@@ -1,6 +1,6 @@
 # 手把手的深度學習實務
 ## 課前準備: 安裝 Keras
-0. Python 建議安裝 python3.3+ 的版本。請依照各自的環境，參照下方安裝說明，安裝好所需要的 packages。
+0. Python 建議安裝 python3.5+ 的版本。請依照各自的環境，參照下方安裝說明，安裝好所需要的 packages。
 1. [For Linux or MacOSX] 安裝 Keras，請依 https://github.com/tw-cmchang/hand-on-dl/blob/master/keras_installation.pdf 安裝說明。
 2. [For Windows] 請參考 https://github.com/chihfanhsu/hand-on-dl 安裝說明。
 2. 下載 https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py 這份範例程式並執行測試。
@@ -13,10 +13,10 @@ python mnist_mlp.py
 pip install numpy scipy future matplotlib scikit-learn
 pip install keras
 ```
-+ 由於作業系統環境因人而異，若有任何安裝上的問題，請不吝來信詢問: cmchang@iis.sinica.edu.tw。先謝謝大家的海涵，希望各位能在 9/22 上課前完成安裝流程，謝謝！
++ 由於作業系統環境因人而異，若有任何安裝上的問題，請不吝來信詢問: cmchang@iis.sinica.edu.tw，謝謝大家的海涵，希望各位能在 12/16 上課前完成安裝流程，謝謝！
 
 ## 下載程式、投影片
-1. 請於 9/22 上課前至 https://goo.gl/UmVMMZ 下載所需的程式碼與投影片。
+1. 請於 12/16 上課前至 https://goo.gl/UmVMMZ 下載所需的程式碼與投影片。
 2. 課前也會將最新版本更新到 [slideshare](http://www.slideshare.net/tw_dsconf/ss-70083878)。
 
 ## (optional) 安裝運算加速庫
@@ -46,4 +46,4 @@ UnicodeDecodeError: 'ascii' codec can't decode byte 0xb8 in position 0: ordinal 
 import sys 
 sys.setdefaultencoding('gbk')
 ```
-之後在 pip install theano/keras 試試看，若有問題請再來信。謝謝該位熱心的同學提供解法 :)。
+之後在 pip install keras 試試看，若有問題請再來信。謝謝該位熱心的同學提供解法 :)。
