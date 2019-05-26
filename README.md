@@ -16,7 +16,7 @@ python mnist_mlp.py
 + 若能成功執行，表示安裝成功。
 + 所需套件整理如下:
 ```
-pip install numpy scipy matplotlib scikit-learn pandas
+pip install numpy scipy matplotlib scikit-learn pandas jupyter
 pip install tensorflow
 pip install keras
 ```
